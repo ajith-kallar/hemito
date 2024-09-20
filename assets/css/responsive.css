@@ -1,0 +1,1695 @@
+/* ********************************************************************
+********************************************************************
+**************************** INDEX PAGE START ***************************
+********************************************************************
+******************************************************************** */
+
+.mobile_solution_row{
+    display: none;
+  }
+
+/* Extra small devices  425px */
+@media (max-width: 600px) {
+    .mobile_solution_row {
+        display: block !important;
+    }
+
+    /* ************ common start ************* */
+    .main_btn_div {
+        text-align: center;
+
+        .main-btn {
+            padding: 0 30px;
+            font-size: 12px;
+            line-height: 45px;
+        }
+    }
+
+    /* ************ common end ************* */
+
+    /* ********** header start ********** */
+
+    .header_one_responsive {
+        top: 0px !important;
+        /* background: yellow !important; */
+
+        .header_one_responsive_row {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .header_one_responsive_col {}
+
+            .header_one_col-3 {
+                .svelte_logos_new {
+                    width: 100%;
+                }
+            }
+
+            .header_one_col-8 {
+                display: none;
+            }
+
+            .header_one_col-1 {
+                .header-main-info {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    /* ********** header end ********** */
+    /* ########## index start ########### */
+    .index_responsive_banner_one {
+        .index_responsive_banner_one_inner_one {
+            margin-top: 0px;
+
+            .index_responsive_banner_one_inner_item {
+                padding-top: 65px;
+
+                .index_sec_one_h1 {}
+
+                .index_sec_1_p {
+                    font-size: 16px !important;
+                }
+
+                .index_section_one_image_div {
+                    width: 75%;
+                    height: 200px;
+                    position: relative;
+                    top: 15px;
+                    left: 25px;
+                }
+            }
+        }
+    }
+
+    /* ########## index end ########### */
+
+    /* ************ products start ********* */
+    .svelte-clients-area {
+        padding-top: 25px;
+        background-size: auto;
+        background-position: top;
+        background-repeat: repeat;
+
+        .clients-tabs-item ul.nav li button {
+            padding: 30px 0 30px;
+            width: 160px;
+        }
+
+        .clients-tabs-item {
+            .clients-content-box .title {
+                font-size: 24px;
+            }
+        }
+
+    }
+
+    /* ********** Products end *********** */
+
+    /* ######### solutions start ####### */
+
+    .solutions_section {
+        main {
+            margin-top: 0 !important;
+
+        }
+
+        .wrap {
+            .mt-4 {
+                margin-top: 0 !important;
+            }
+
+            .index_ani {
+                height: 250px !important;
+            }
+        }
+
+        .system_solution_row {
+            display: none;
+        }
+
+      
+
+
+
+        .mob_res {
+            display: none;
+        }
+
+        .view_more {
+            font-size: 12px;
+        }
+
+        .content__title {
+            text-align: center;
+        }
+
+        .mr-20 {
+            margin-right: 10px;
+        }
+    }
+
+    /* ####### solutions end ######### */
+
+    /* ******** Ai start ******** */
+    .holo_robo {
+        width: 50% !important;
+        height: 260px !important;
+        padding-bottom: 0px !important;
+        margin: auto;
+    }
+
+    .hologram {
+        height: 500px !important;
+    }
+
+    .floating-text {
+        font-size: 10px;
+    }
+
+    .text-one {
+        top: 0% !important;
+        left: 13% !important;
+    }
+
+    .text-two {
+        top: 8% !important;
+        left: 3% !important;
+    }
+
+    .text-three {
+        top: 16% !important;
+        left: 2% !important;
+    }
+
+    .text-four {
+        top: 27% !important;
+        left: 7% !important;
+    }
+
+    .text-five {
+        top: 0% !important;
+        right: 10% !important;
+    }
+
+    .text-six {
+        top: 8% !important;
+        right: 2% !important;
+    }
+
+    .text-seven {
+        top: 16% !important;
+        right: 7% !important;
+    }
+
+    .text-eight {
+        top: 24% !important;
+        right: 10% !important;
+    }
+
+    .text-one,
+    .text-two,
+    .text-three,
+    .text-four,
+    .text-five,
+    .text-six,
+    .text-seven,
+    .text-eight {
+        padding: 10px !important;
+    }
+
+    /* ******** Ai end ********  */
+    /* ########## footer start ######## */
+    .footer_logo_img {
+        width: 60%;
+    }
+
+    .footer_p {
+        font-size: 14px;
+    }
+
+    .footer_address {
+        font-size: 14px;
+
+    }
+
+    /* ########## footer end ##########  */
+    .content--sticky {
+        height: 100% !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .system_solution_row {
+        display: none;
+    }
+
+    .mobile_solution_row {
+        display: block !important;
+    }
+
+    /* ********** header start ********** */
+
+    .header_one_responsive {
+        top: 0px !important;
+        /* background: yellow !important; */
+        padding: 0px 0px 10px 60px !important;
+
+        .header_one_responsive_row {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .header_one_responsive_col {}
+
+            .header_one_col-3 {
+                .svelte_logos_new {
+                    width: 60%;
+                }
+            }
+
+            .header_one_col-8 {
+                display: none;
+            }
+
+            .header_one_col-1 {
+                .header-main-info {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    /* ********** header end ********** */
+
+    /* ########## index start ########### */
+    .index_responsive_banner_one {
+        .index_responsive_banner_one_inner_one {
+            margin-top: 0px;
+
+            .index_responsive_banner_one_inner_item {
+                padding-top: 120px;
+
+                .index_sec_one_h1 {}
+
+                .index_sec_1_p {
+                    font-size: 16px !important;
+                }
+
+                .index_section_one_image_div {
+                    width: 50%;
+                    height: 200px;
+                    position: relative;
+                    top: 15px;
+                    left: 200px;
+                }
+            }
+        }
+    }
+
+    /* ########## index end ########### */
+
+    /* ************ products start ********* */
+    .svelte-clients-area {
+        padding-top: 25px;
+        background-size: auto;
+        background-position: top;
+        background-repeat: repeat;
+
+        .clients-tabs-item ul.nav li button {
+            padding: 30px 0 30px;
+            width: 160px;
+        }
+
+        .clients-tabs-item {
+            .clients-content-box .title {
+                font-size: 24px;
+            }
+        }
+
+    }
+
+    /* ********** Products end *********** */
+
+    /* ######### solutions start ####### */
+
+    .solutions_section {
+        main {
+            margin-top: 0 !important;
+
+        }
+
+        .wrap {
+            .mt-4 {
+                margin-top: 0 !important;
+            }
+
+            .index_ani {
+                height: 250px !important;
+            }
+        }
+
+        .system_solution_row {
+            display: none;
+        }
+
+        .mobile_solution_row {
+            display: block !important;
+        }
+
+
+
+        .mob_res {
+            display: none;
+        }
+
+        .view_more {
+            font-size: 12px;
+        }
+
+        .content__title {
+            text-align: center;
+        }
+
+        .mr-20 {
+            margin-right: 10px;
+        }
+    }
+
+    /* ####### solutions end ######### */
+
+    /* ******** Ai start ******** */
+    .holo_robo {
+        width: 50% !important;
+        height: 260px !important;
+        padding-bottom: 0px !important;
+        margin: auto;
+    }
+
+    .hologram {
+        height: 400px !important;
+    }
+
+    .floating-text {
+        font-size: 10px;
+    }
+
+    .text-one {
+        top: 0% !important;
+        left: 13% !important;
+    }
+
+    .text-two {
+        top: 12% !important;
+        left: 8% !important;
+    }
+
+    .text-three {
+        top: 24% !important;
+        left: 8% !important;
+    }
+
+    .text-four {
+        top: 36% !important;
+        left: 12% !important;
+    }
+
+    .text-five {
+        top: 0% !important;
+        right: 10% !important;
+    }
+
+    .text-six {
+        top: 12% !important;
+        right: 4% !important;
+    }
+
+    .text-seven {
+        top: 24% !important;
+        right: 7% !important;
+    }
+
+    .text-eight {
+        top: 36% !important;
+        right: 10% !important;
+    }
+
+    .text-one,
+    .text-two,
+    .text-three,
+    .text-four,
+    .text-five,
+    .text-six,
+    .text-seven,
+    .text-eight {
+        padding: 10px !important;
+    }
+
+    /* ******** Ai end ********  */
+    /* ########## footer start ######## */
+    .footer_logo_img {
+        width: 60%;
+    }
+
+    .footer_p {
+        font-size: 14px;
+    }
+
+    .footer_address {
+        font-size: 14px;
+
+    }
+
+    /* ########## footer end ##########  */
+    .content--sticky {
+        height: 100% !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .system_solution_row {
+        display: none;
+    }
+
+    .mobile_solution_row {
+        display: block !important;
+    }
+
+    /* ********** header start ********** */
+    .header_one_responsive {
+        top: 0px !important;
+        /* background: yellow !important; */
+        padding: 0px 0px 0px 0px !important;
+
+        .header_one_responsive_row {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .header_one_responsive_col {}
+
+            .header_one_col-3 {
+                .svelte_logos_new {
+                    width: 60%;
+                }
+            }
+
+            .header_one_col-8 {
+                display: none;
+            }
+
+            .header_one_col-1 {
+                .header-main-info {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    /* ********** header end ********** */
+    /* ########## index start ########### */
+    .index_responsive_banner_one {
+        .index_responsive_banner_one_inner_one {
+            margin-top: 0px;
+
+            .index_responsive_banner_one_inner_item {
+                padding-top: 120px;
+
+                .index_sec_one_h1 {}
+
+                .index_sec_1_p {
+                    font-size: 16px !important;
+                }
+
+                .index_section_one_image_div {
+                    width: 50%;
+                    height: 200px;
+                    position: relative;
+                    top: 15px;
+                    left: 200px;
+                }
+            }
+        }
+    }
+
+    /* ########## index end ########### */
+
+    /* ************ products start ********* */
+    .svelte-clients-area {
+        padding-top: 25px;
+        background-size: auto;
+        background-position: top;
+        background-repeat: repeat;
+
+        .clients-tabs-item ul.nav li button {
+            padding: 30px 0 30px;
+            width: 160px;
+        }
+
+        .clients-tabs-item {
+            .clients-content-box .title {
+                font-size: 24px;
+            }
+        }
+
+    }
+
+    /* ********** Products end *********** */
+
+    /* ######### solutions start ####### */
+
+    .solutions_section {
+        main {
+            margin-top: 0 !important;
+
+        }
+
+        .wrap {
+            .mt-4 {
+                margin-top: 0 !important;
+            }
+
+            .index_ani {
+                height: 250px !important;
+            }
+        }
+
+        .system_solution_row {
+            display: none;
+        }
+
+        .mobile_solution_row {
+            display: block !important;
+        }
+
+
+
+        .mob_res {
+            display: none;
+        }
+
+        .view_more {
+            font-size: 12px;
+        }
+
+        .content__title {
+            text-align: center;
+        }
+
+        .mr-20 {
+            margin-right: 10px;
+        }
+    }
+
+    /* ####### solutions end ######### */
+
+    /* ******** Ai start ******** */
+    .holo_robo {
+        width: 50% !important;
+        height: 260px !important;
+        padding-bottom: 0px !important;
+        margin: auto;
+    }
+
+    .hologram {
+        height: 400px !important;
+    }
+
+    .floating-text {
+        font-size: 10px;
+    }
+
+    .text-one {
+        top: 0% !important;
+        left: 13% !important;
+    }
+
+    .text-two {
+        top: 12% !important;
+        left: 8% !important;
+    }
+
+    .text-three {
+        top: 24% !important;
+        left: 8% !important;
+    }
+
+    .text-four {
+        top: 36% !important;
+        left: 12% !important;
+    }
+
+    .text-five {
+        top: 0% !important;
+        right: 10% !important;
+    }
+
+    .text-six {
+        top: 12% !important;
+        right: 4% !important;
+    }
+
+    .text-seven {
+        top: 24% !important;
+        right: 7% !important;
+    }
+
+    .text-eight {
+        top: 36% !important;
+        right: 10% !important;
+    }
+
+    .text-one,
+    .text-two,
+    .text-three,
+    .text-four,
+    .text-five,
+    .text-six,
+    .text-seven,
+    .text-eight {
+        padding: 10px !important;
+    }
+
+    /* ******** Ai end ********  */
+    /* ########## footer start ######## */
+    .footer_logo_img {
+        width: 60%;
+    }
+
+    .footer_p {
+        font-size: 14px;
+    }
+
+    .footer_address {
+        font-size: 14px;
+
+    }
+
+    /* ########## footer end ##########  */
+    .content--sticky {
+        height: 100% !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mobile_solution_row {
+        display: none!important;
+    }
+
+    .system_solution_row {
+        display: block;
+    }
+
+    .header-main-nav-box ul li {
+        margin-right: 50px;
+    }
+
+    .header_one_responsive {
+        top: 0px !important;
+        /* background: yellow !important; */
+        padding: 12px 0px 12px 12px !important;
+
+        .header_one_responsive_row {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            .header_one_responsive_col {}
+
+            .header_one_col-3 {
+                .svelte_logos_new {
+                    width: 50%;
+                }
+            }
+
+
+
+            .header_one_col-1 {
+                .header-main-info {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* ********************************************************************
+********************************************************************
+**************************** INDEX PAGE START ***************************
+********************************************************************
+******************************************************************** */
+
+
+/* #####################################################################
+#####################################################################
+############################# ABOUT START ###########################
+#####################################################################
+##################################################################### */
+
+/* Extra small devices  425px */
+@media (max-width: 600px) {
+
+
+    /* section one start  */
+    .mobile_about_area {
+        padding: 20px 0px;
+        .mobile_company_img_div {
+            text-align: center;
+
+            .why_svelte_img {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .mobile_svelte_about_content {
+            padding: 15px;
+
+            h3 {
+                font-size: 24px;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+
+                }
+
+            }
+
+        }
+    }
+
+    /* section one end  */
+
+    /* section two start  */
+
+    .mobile_information_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        .information-content span {
+            font-size: 20px;
+
+            .quote-text {
+                margin-top: 30px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .thumb {
+            justify-content: center !important;
+
+            .mission_img {
+                height: 350px;
+                width: 350px;
+            }
+        }
+    }
+
+    .mobile_information_area::before {
+        background-size: cover;
+        background-position: left;
+        background-repeat: repeat;
+    }
+
+    /* section two end  */
+
+    /* section three start  */
+    .mobile_vision_area {
+
+        .svelte-about-thumb {
+            display: flex;
+            justify-content: center !important;
+           
+
+            img {
+                height: 350px;
+                width: 350px;
+                margin-left: 0px!important;
+            }
+
+            .item-1 {
+                display: none !important;
+            }
+        }
+    }
+
+    /* section three end */
+    /* sectio four start  */
+    .mobile_industries_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .indus_img_div {
+                text-align: center;
+
+                .indus_img {
+                    height: 350px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+
+    /* section four end  */
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+
+    /* section one start  */
+    .mobile_about_area {
+        padding: 20px 0px;
+        .mobile_company_img_div {
+            text-align: center;
+
+            .why_svelte_img {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .mobile_svelte_about_content {
+            padding: 15px;
+
+            h3 {
+                font-size: 24px;
+            }
+
+            ul {
+                li {
+                    font-size: 16px;
+
+                }
+
+            }
+
+        }
+    }
+
+    /* section one end  */
+
+    /* section two start  */
+
+    .mobile_information_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        .information-content span {
+            font-size: 20px;
+
+            .quote-text {
+                margin-top: 30px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .thumb {
+            justify-content: center !important;
+
+            .mission_img {
+                height: 350px;
+                width: 350px;
+            }
+        }
+    }
+
+    .mobile_information_area::before {
+        background-size: cover;
+        background-position: left;
+        background-repeat: repeat;
+    }
+
+    /* section two end  */
+
+    /* section three start  */
+    .mobile_vision_area {
+
+        .svelte-about-thumb {
+            display: flex;
+            justify-content: center !important;
+            
+            img {
+                height: 350px;
+                width: 350px;
+                margin-left: 0px!important;
+
+            }
+
+            .item-1 {
+                display: none !important;
+            }
+        }
+    }
+
+    /* section three end */
+    /* sectio four start  */
+    .mobile_industries_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .indus_img_div {
+                text-align: center;
+
+                .indus_img {
+                    height: 350px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+
+    /* section four end  */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+
+     /* section one start  */
+     .mobile_about_area {
+        padding: 20px 0px;
+        .mobile_company_img_div {
+            text-align: center;
+
+            .why_svelte_img {
+                width: 450px;
+                height: 450px;
+            }
+        }
+
+        .mobile_svelte_about_content {
+            /* padding: 15px; */
+
+            h3 {
+                /* font-size: 24px; */
+            }
+
+            ul {
+                li {
+                    /* font-size: 16px; */
+
+                }
+
+            }
+
+        }
+    }
+
+    /* section one end  */
+
+    /* section two start  */
+
+    .mobile_information_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+
+        h3 {
+            /* font-size: 24px; */
+        }
+
+        .information-content span {
+            /* font-size: 20px; */
+
+            .quote-text {
+                margin-top: 30px;
+
+                p {
+                    /* font-size: 16px; */
+                }
+            }
+        }
+
+        .thumb {
+            justify-content: center !important;
+
+            .mission_img {
+                height: 450px;
+                width: 450px;
+            }
+        }
+    }
+
+    .mobile_information_area::before {
+        background-size: cover;
+        background-position: left;
+        background-repeat: repeat;
+    }
+
+    /* section two end  */
+
+    /* section three start  */
+    .mobile_vision_area {
+
+        .svelte-about-thumb {
+            display: flex;
+            justify-content: center !important;
+            
+            img {
+                height: 450px;
+                width: 450px;
+                margin-left: 0px!important;
+
+            }
+
+            .item-1 {
+                display: none !important;
+            }
+        }
+    }
+
+    /* section three end */
+    /* sectio four start  */
+    .mobile_industries_area {
+        .row {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .indus_img_div {
+                text-align: center;
+
+                .indus_img {
+                    height: 450px;
+                    width: 450px;
+                }
+            }
+        }
+    }
+
+    /* section four end  */
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* #####################################################################
+#####################################################################
+############################# ABOUT END ###########################
+#####################################################################
+##################################################################### */
+/* #####################################################################
+#####################################################################
+############################# service START ###########################
+#####################################################################
+##################################################################### */
+
+
+/* Extra small devices  425px */
+@media (max-width: 600px) {
+    .svelte_cyber_service{
+        padding: 20px 0px;
+    }
+    .service-svelte {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .service_svelte_row{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .service_svelte_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+
+       
+
+    }
+    .svelte_mob_service{
+        padding: 20px 0px ;
+    }
+    .svelte_social_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_social_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_social_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+    }
+    .svelte_itaas_service{
+        padding: 20px 0px ;
+    }
+    .svelte_software_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_software_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_software_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+    }
+    .svelte_data_service{
+        padding: 20px 0px ;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .pl_s_0{
+        padding-left: 0px !important;
+    }
+    .svelte_cyber_service{
+        padding: 20px 0px;
+
+        .svelte_cyber_service_img{
+              height: 350px;
+              width: 350px;
+              display: flex;
+              margin: auto;
+             padding-left: 0px !important;
+        }
+    }
+    .service-svelte {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .service_svelte_row{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .service_svelte_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .service_svelte_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+
+       
+
+    }
+    .svelte_mob_service{
+        padding: 20px 0px ;
+        
+        .svelte_mob_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+    .svelte_social_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_social_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_social_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .svelte_social_service_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .svelte_itaas_service{
+        padding: 20px 0px ;
+
+        .svelte_itaas_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+    .svelte_software_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_software_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_software_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .svelte_software_service_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .svelte_data_service{
+        padding: 20px 0px ;
+
+          .svelte_data_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .pl_s_0{
+        padding-left: 0px !important;
+    }
+    .svelte_cyber_service{
+        padding: 20px 0px;
+
+        .svelte_cyber_service_img{
+              height: 350px;
+              width: 350px;
+              display: flex;
+              margin: auto;
+             padding-left: 0px !important;
+        }
+    }
+    .service-svelte {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .service_svelte_row{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .service_svelte_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .service_svelte_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+
+       
+
+    }
+    .svelte_mob_service{
+        padding: 20px 0px ;
+        
+        .svelte_mob_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+    .svelte_social_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_social_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_social_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .svelte_social_service_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .svelte_itaas_service{
+        padding: 20px 0px ;
+
+        .svelte_itaas_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+    .svelte_software_service{
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .svelte_software_service_row{
+            display: flex;
+            flex-direction: column-reverse;
+
+        }
+        .svelte_software_service_img{
+            display: flex;
+            margin: auto;
+         
+            padding-left: 0px !important;
+            width: 80%;
+        }
+        .svelte_software_service_images{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+    .svelte_data_service{
+        padding: 20px 0px ;
+
+          .svelte_data_service_img{
+            height: 350px;
+            width: 350px;
+            display: flex;
+            margin: auto;
+           padding-left: 0px !important;
+        }
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1200px) {
+
+ }
+
+
+
+
+/* #####################################################################
+#####################################################################
+############################# service END ###########################
+#####################################################################
+##################################################################### */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #####################################################################
+#####################################################################
+############################# product start ###########################
+#####################################################################
+##################################################################### */
+/* Extra small devices  425px */
+@media (max-width: 600px) {
+.svelte_product_area_blurt{
+    .svelte_product_area_img{
+        height: 350px;
+    }
+}
+.svelte_pro_area_svpn{
+    padding: 20px 0px;
+
+    .svelte_pro_area_svpn_row{
+        display: flex;
+       flex-direction: column-reverse;
+    }
+    .svelte_pro_area_svpn_img{
+        height: 350px;
+
+    }
+
+}
+.svelte_pro_brahma{
+ .svelte_pro_brahma_item1{
+    display: none;
+
+    }
+    .svelte_pro_brahma_item2{
+        display: none;
+    
+        }
+}
+.svelte_pro_vigi{
+padding: 50px 0px;
+
+    .svelte_pro_vigi_row{
+        display: flex;
+       flex-direction: column-reverse;
+    }
+    .svelte_pro_vigi_img{
+        height: 250px;
+     
+        display: flex;
+        margin: auto;
+
+    }
+
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .svelte_product_area_blurt{
+        .svelte_product_area_img{
+            height: 350px;
+        }
+    }
+    .svelte_pro_area_svpn{
+        padding: 20px 0px;
+    
+        .svelte_pro_area_svpn_row{
+            display: flex;
+           flex-direction: column-reverse;
+        }
+        .svelte_pro_area_svpn_img{
+            height: 350px;
+    
+        }
+    
+    }
+    .svelte_pro_brahma{
+     .svelte_pro_brahma_item1{
+        display: none;
+    
+        }
+        .svelte_pro_brahma_item2{
+            display: none;
+        
+            }
+            .svelte_pro_brahma_img{
+                height: 350px;
+                display: flex;
+                margin: auto !important;
+            }
+    }
+    .svelte_pro_vigi{
+    padding: 50px 0px;
+    
+        .svelte_pro_vigi_row{
+            display: flex;
+           flex-direction: column-reverse;
+        }
+        .svelte_pro_vigi_img{
+            height: 250px;
+         
+            display: flex;
+            margin: auto;
+    
+        }
+    
+    }
+    .svelte_pro_vigi_cofy{
+        padding: 40px 0px;
+        .svelte_pro_vigi_cofy_img{
+            /* height: 350px; */
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .svelte_product_area_blurt{
+        .svelte_product_area_img{
+            height: 350px;
+        }
+    }
+    .svelte_pro_area_svpn{
+        padding: 20px 0px;
+    
+        .svelte_pro_area_svpn_row{
+            display: flex;
+           flex-direction: column-reverse;
+        }
+        .svelte_pro_area_svpn_img{
+            height: 350px;
+    
+        }
+    
+    }
+    .svelte_pro_brahma{
+     .svelte_pro_brahma_item1{
+        display: none;
+    
+        }
+        .svelte_pro_brahma_item2{
+            display: none;
+        
+            }
+            .svelte_pro_brahma_img{
+                height: 350px;
+                display: flex;
+                margin: auto !important;
+            }
+    }
+    .svelte_pro_vigi{
+    padding: 50px 0px;
+    
+        .svelte_pro_vigi_row{
+            display: flex;
+           flex-direction: column-reverse;
+        }
+        .svelte_pro_vigi_img{
+            height: 250px;
+         
+            display: flex;
+            margin: auto;
+    
+        }
+    
+    }
+    .svelte_pro_vigi_cofy{
+        padding: 40px 0px;
+        .svelte_pro_vigi_cofy_img{
+            /* height: 350px; */
+            width: 350px;
+            display: flex;
+            margin: auto;
+        }
+    }
+}
+
+
+
+/* #####################################################################
+#####################################################################
+############################# product end ###########################
+#####################################################################
+##################################################################### */
